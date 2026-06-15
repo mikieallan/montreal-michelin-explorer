@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-michelin-red: #bd2332;
+  --color-michelin-red-dark: #ba0b2f;
+  --color-michelin-red-light: #fbe4e7;
+  --color-michelin-gold: #ba8b00;
+  --color-michelin-black: #191919;
+  --color-michelin-ink: #222222;
+  --color-michelin-gray: #4d4d4d;
+  --color-michelin-muted: #888888;
+  --color-michelin-border: #cccccc;
+  --color-michelin-border-light: #e0e0e0;
+  --color-michelin-surface: #f6f6f6;
+  --color-michelin-green: #00ab6c;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  color: var(--color-michelin-black);
+  background: var(--color-michelin-surface);
+}
+
+.michelin-filter-btn:hover {
+  border-color: var(--color-michelin-black);
+  color: var(--color-michelin-black);
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
