@@ -91,7 +91,7 @@ function App() {
               MICHELIN Guide
             </p>
             <h1 className="truncate text-xl font-bold tracking-tight text-michelin-black md:text-2xl">
-              Mikie&apos;s Montreal Trip
+              The Brain Station Montreal Trip
             </h1>
             <p className="text-sm text-michelin-gray">
               {filtered.length} of {restaurants.length} restaurants
